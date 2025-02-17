@@ -34,7 +34,7 @@
                     courses.forEach(function (course) {
                         var courseHtml = `
                         <div class="bg-primary p-6 rounded-lg">
-                            <img src="${course.thumbnail || 'https://placehold.co/400x225'}" alt="Course thumbnail" class="w-full h-auto object-cover rounded-lg mb-4">
+                            <img src="${course.cover_photo}" alt="Course thumbnail" class="w-full h-auto object-cover rounded-lg mb-4">
                             <h4 class="text-2xl font-semibold text-secondary mb-2 capitalize">${course.title}</h4>
                             <p class="text-sm mb-4">${course.description}</p>
                             <p class="text-lg font-bold mb-4">₦${course.price}</p>
